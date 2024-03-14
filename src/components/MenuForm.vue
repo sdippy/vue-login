@@ -42,7 +42,7 @@ export default {
     <div>
       <ul class="settings">
         <li class="flex">
-          <img src="/public/images/settings.svg" alt="SettingsPage" />#<a href="">Настройки</a>
+          <img src="/public/images/settings.svg" alt="SettingsPage" /><a href="#">Настройки</a>
         </li>
         <li class="flex">
           <img src="/public/images/exit.svg" alt="Exit" /><router-link to="/" @click="logout"
