@@ -25,7 +25,7 @@ export default {
         >
       </li>
       <li class="flex">
-        <img src="/public/images/goods.svg" alt="GoodsPage" /><a href="">Товары</a>
+        <img src="/public/images/goods.svg" alt="GoodsPage" /><a href="#">Товары</a>
       </li>
       <li class="flex">
         <img src="/public/images/category.svg" alt="CategoryPage" /><router-link
@@ -35,14 +35,14 @@ export default {
         >
       </li>
       <li class="flex">
-        <img src="/public/images/user.svg" alt="UsersPage" /><a href="">Пользователи</a>
+        <img src="/public/images/user.svg" alt="UsersPage" /><a href="#">Пользователи</a>
       </li>
     </ul>
 
     <div>
       <ul class="settings">
         <li class="flex">
-          <img src="/public/images/settings.svg" alt="SettingsPage" /><a href="">Настройки</a>
+          <img src="/public/images/settings.svg" alt="SettingsPage" />#<a href="">Настройки</a>
         </li>
         <li class="flex">
           <img src="/public/images/exit.svg" alt="Exit" /><router-link to="/" @click="logout"
