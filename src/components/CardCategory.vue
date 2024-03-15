@@ -1,10 +1,6 @@
 <template>
   <div>
     <div class="active relative flex h-full">
-      <div class="Btns">
-        <img class="absolute" src="/public/images/delete.png" alt="" />
-        <img class="absolute" src="/public/images/edit.png" alt="" />
-      </div>
       <div class="panelCategory m-auto">
         <img class="" src="/public/images/Shoe.png" alt="Category" />
         <p>Some category</p>
@@ -24,15 +20,6 @@
   box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.25);
   transition: all 0.4s;
   /* background: rgba(0, 0, 0, 0.4); */
-}
-
-.Btns {
-  opacity: 0%;
-  transition: all 0.3s;
-}
-
-.active:hover > .Btns {
-  opacity: 100%;
 }
 
 .active img {

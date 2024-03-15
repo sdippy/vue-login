@@ -51,7 +51,8 @@ import ProfileForm from './ProfileForm.vue'
   flex: 1;
   width: 100%;
   margin: auto;
-  padding: 0 40px 0 40px;
+  padding: 40px 40px 0 40px;
+  height: 100svh;
 }
 
 .badge {
