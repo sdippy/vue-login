@@ -51,7 +51,7 @@ import ProfileForm from './ProfileForm.vue'
   flex: 1;
   width: 100%;
   margin: auto;
-  padding: 40px 40px 0 40px;
+  padding: 30px 40px 0px 40px;
   height: 100svh;
 }
 
@@ -60,7 +60,6 @@ import ProfileForm from './ProfileForm.vue'
 }
 
 .badges {
-  background-color: #2c2c2c;
   height: 140px;
   width: 100%;
   border-radius: 30px;

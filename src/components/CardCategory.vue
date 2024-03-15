@@ -19,6 +19,8 @@
 .active:hover {
   box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.25);
   transition: all 0.4s;
+  opacity: 50%;
+  cursor: pointer;
   /* background: rgba(0, 0, 0, 0.4); */
 }
 

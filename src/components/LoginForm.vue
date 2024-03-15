@@ -90,8 +90,6 @@ export default {
         <!-- Display something when the user is authenticated -->
         <div>Welcome, {{ user }}</div>
         <!-- <router-link :to="{ name: 'MenuForm' }"> На главную </router-link> -->
-
-        <!-- Assuming there is a 'Name' property in the user object -->
       </div>
     </div>
   </div>
